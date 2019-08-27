@@ -1,0 +1,46 @@
+body {
+  background-image: url(./vista-rio-de-janeiro-rj.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+canvas {
+  border: 1px solid red;
+}
+
+body div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.zaque {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zaqueesusamigos {
+  display: flex;
+}
+
+.zaque img {
+  width: 250px;
+  height: 250px;
+}
+
+body button {
+  font-size: 30px;
+  background-color: #870007;
+  color: #fff;
+  padding: 20px 40px;
+  border: 0;
+  box-shadow: 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.zaque p {
+  font-size: 20px;
+  color: white;
+}
