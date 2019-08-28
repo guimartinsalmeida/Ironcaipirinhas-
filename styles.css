@@ -1,5 +1,5 @@
 body {
-  background-image: url(./vista-rio-de-janeiro-rj.jpg);
+  background-image: url(./image/vista-rio-de-janeiro-rj.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -29,6 +29,12 @@ body div {
   height: 250px;
 }
 
+.paragrafo {
+  background-color: #870007;
+  padding: 3px 10px;
+  border-radius: 5%;
+}
+
 body button {
   font-size: 30px;
   background-color: #870007;
@@ -43,4 +49,30 @@ body button {
 .zaque p {
   font-size: 20px;
   color: white;
+}
+
+.divcanva {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game-board {
+  position: relative;
+  background-image: url(./image/playa2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.divbot {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10%;
+  width: 20px;
+}
+
+.divbot button {
+  padding: 5px 40px;
 }

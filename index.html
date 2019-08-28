@@ -7,26 +7,35 @@
     <title>Ironcaipirinhas</title>
     <link rel="stylesheet" href="./styles.css" />
 
-    <link rel="stylesheet" href="styles/style.css" />
+    
   </head>
   <body>
     <div class="zaqueesusamigos">
       <div class="zaque">
-        <img src="./logocaipirinha2.png" />
+        <img src="./image/logocaipirinha2.png" />
         <br />
-        <button id="start-button">Empieze a tomar!</button>
-        <p>Para ganar picale el boton el mas rapido que pueda</p>
-      </div>
-      <div>
-        <div id="game-board">
-          <canvas width="300" height="600"></canvas>
+        <button id="start-button">Empiece a tomar!</button>
+        <div class="paragrafo">
+        <p>Para ganar pícale el botón lo más rápido que puedas</p>
         </div>
-        <div id="game-board2">
-          <canvas width="300" height="600"></canvas>
+      </div>
+      <div class="divcanva">
+        <div class="game-board">
+          <div class="divbot">
+            <button>picale</button>
+          </div>
+          <canvas id="jugador1" width="300" height="600"></canvas>
+        </div>
+        <div class="game-board">
+            <div id="game-board2">
+                <div class="divbot">
+                  <button>picale</button>
+                </div>
+          <canvas id="jugador2" width="300" height="600"></canvas>
         </div>
       </div>
     </div>
 
-    <script src="./style.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
