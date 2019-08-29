@@ -33,6 +33,7 @@ body div {
   background-color: #870007;
   padding: 3px 10px;
   border-radius: 5%;
+  text-align: center;
 }
 
 body button {
@@ -71,8 +72,24 @@ body button {
   transform: translateX(-50%);
   bottom: 10%;
   width: 20px;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .divbot button {
   padding: 5px 40px;
+  font-size: 20px;
+}
+
+.divimg img {
+  width: 90px;
+  display: none;
+}
+
+#music {
+  display: none;
+}
+#play-button {
+  padding: 10px 10px;
+  font-size: 20px;
 }
