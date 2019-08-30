@@ -2,6 +2,7 @@ body {
   background-image: url(./image/vista-rio-de-janeiro-rj.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 canvas {
